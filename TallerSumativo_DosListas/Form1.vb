@@ -11,9 +11,8 @@
 
     Private Sub btnAgregar_Click(sender As Object, e As EventArgs) Handles btnAgregar.Click
         Dim nombre As String = ""
-        Const msj As String = "Ingrese los Datos"
-
-        ListBox1.Items.Add(InputBox(msj, "datos", nombre))
+    
+        ListBox1.Items.Add(InputBox("Ingrese los Datos", "Datos", nombre))
 
     End Sub
 
